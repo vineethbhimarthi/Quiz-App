@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C6B9CD;
+}
+h3{
+    margin-left: 30rem;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#quizCreation, #quizList, #quizAttempt, #leaderboard {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+#questionsContainer {
+    margin: 6px 0;
+    height: 100%;
+    width: 50%;
+    margin-left: 1.5rem;
+
+    
+}
+.questionCard{
+    padding: 5px;
+    background-color: #B8BACF;
+    width: 50rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.question { 
+    padding-left: 10px;
+    margin: 8px 0;
+    width: 18rem;
+    height: 12rem;
+    margin-bottom: 3rem;
+}
+.question input{
+    margin-bottom: 4px;
+    width: 16rem;
+    height: 1.5rem;
+}
+#questionbox{
+    width: 30rem;
+    margin-bottom: 0.75rem;
+}
+
+
+.quiz-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 10px 0;
+}
+#titleId{
+    margin-left: 0.5rem;
+}
+#attemptQuiz{
+    color: #333;
+    padding: 1rem;
+    font: 2rem;
+    background-color: #B8BACF;
+    border-radius: 1rem;
+}
+.quiz-question p{
+    font-size: 1.3rem;
+}
+.quiz-question label{
+font-size: 1.2rem;
+display: flex;
+cursor: pointer;
+gap: 1rem;
+}
+.quiz-question input{
+    margin-bottom: 0.7rem;
+}
+
+.quiz{
+    color: white;
+    padding: 1rem;
+    background-color: #262730;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}

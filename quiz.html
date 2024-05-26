@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Platform</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Online Quiz Platform</h1>
+        <h3 id="welcomeUser">Hello</h3>
+        <button id="logoutBtn">Log Out</button>
+    </header>
+    <main>
+        <section id="quizCreation">
+            <h2>Create a Quiz</h2>
+            <input type="text" id="quizTitle" placeholder="Quiz Title">
+            <div id="questionsContainer">
+                <!-- Questions will be added here dynamically -->
+            </div>
+            <button id="addQuestionBtn">Add Question</button>
+            <button id="saveQuizBtn">Save Quiz</button>
+        
+        </section>
+        <section id="quizList">
+            <h2>Available Quizzes</h2>
+            <!-- Quizzes will be listed here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Quiz Platform</p>
+    </footer>
+    <script type="module" src="quiz.js"></script>
+</body>
+</html>
